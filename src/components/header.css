@@ -1,0 +1,19 @@
+.header {
+  height: 20vh;
+  width: 100vw;
+  background-color: rgba(55, 150, 54, 1);
+  text-align: center;
+  display: flex;
+  font-size: 5vw;
+}
+.menu {
+  margin-top: .5vw;
+  flex: 1;
+}
+.header li {
+  list-style: none;
+  display: inline-block;
+  color: #FFF;
+  flex: 3;
+  text-transform: uppercase;
+}
