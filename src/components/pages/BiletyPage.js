@@ -1,7 +1,7 @@
 import React from 'react';
 
-const BiletyPage = () => (
+const BiletyPage = () => 
   <div>Bilety</div>
-);
+
 
 export default BiletyPage;

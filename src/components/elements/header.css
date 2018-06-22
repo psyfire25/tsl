@@ -1,19 +1,25 @@
 .header {
-  height: 20vh;
+  height: 10vw;
   width: 100vw;
   background-color: rgba(55, 150, 54, 1);
   text-align: center;
   display: flex;
-  font-size: 5vw;
+  font-size: 2vw;
 }
 .menu {
-  margin-top: .5vw;
   flex: 1;
 }
-.header li {
+.header a {
   list-style: none;
   display: inline-block;
   color: #FFF;
-  flex: 3;
+  flex: 2;
   text-transform: uppercase;
+  line-height: 2;
+}
+.header a:hover {
+  color: #c42805;
+}
+.logo {
+  width: 15vw;
 }
