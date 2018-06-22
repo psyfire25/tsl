@@ -1,7 +1,10 @@
 import React from 'react';
 
 
-const InfoPage = () =>
+class InfoPage extends React.Component {
+
+  render() {
+    return (
   <div  className="copy">
       <h1>Witamy wszystkich serdecznie</h1>
         <p>Chcemy przestawić wam pierwszy rap festiwal Tajemniczy Smak Lata w bedfordshire, w miejscu Woburn Farm</p>
@@ -18,5 +21,8 @@ const InfoPage = () =>
 
         <p>... to Ty odkryjesz cala tajemnice...</p>
   </div>
+);
+}
+}
 
 export default InfoPage;

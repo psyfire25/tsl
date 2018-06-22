@@ -7,7 +7,9 @@ import KontaktPage from './components/pages/KontaktPage';
 import BiletyPage from './components/pages/BiletyPage';
 import './App.css';
 
-const App = () =>
+class App extends React.Component {
+  render() {
+    return (
   <div className="App">
     <Header />
     <Route path="/" exact component={DomPage} />
@@ -15,5 +17,8 @@ const App = () =>
     <Route path="/KontaktPage" exact component={KontaktPage} />
     <Route path="/BiletyPage" exact component={BiletyPage} />
   </div>
+);
+}
+}
 
 export default App;

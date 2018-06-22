@@ -1,7 +1,11 @@
 import React from 'react';
 
-const BiletyPage = () => 
-  <div>Bilety</div>
-
+class BiletyPage extends React.Component {
+  render (){
+    return (
+      <div>Bilet</div>
+    );
+  }
+}
 
 export default BiletyPage;
