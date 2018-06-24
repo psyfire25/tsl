@@ -1,5 +1,5 @@
 body {
-  width: 100vw;
+  width: auto;
   height: 100vh;
   background-image: url(./images/crowdBG.png) !important;
   background-size: cover !important;
