@@ -8,6 +8,9 @@ body {
 .copy {
   color: #FFF;
   margin-top: 20px;
+  position: absolute;
+  bottom: 5vh;
+  font-size: 2vw;
 }
 .homeCopy {
   font-size: 5vw;

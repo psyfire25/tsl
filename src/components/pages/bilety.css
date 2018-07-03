@@ -4,6 +4,11 @@
     top: 15vw;
     width: 20vw;
     height: 20vw;
+    background-image: url(../../images/skiddleupBTN.png);
+    background-size: cover;
+  }
+  .skiddle:hover {
+    background-image: url(../../images/skiddledownBTN.png);
   }
   .eventbrite {
     position: absolute;
@@ -11,4 +16,9 @@
     top: 15vw;
     width: 20vw;
     height: 20vw;
+    background-image: url(../../images/EBupBTN.png);
+    background-size: cover;
+  }
+  .eventbrite:hover {
+    background-image: url(../../images/EBdownBTN.png);
   }

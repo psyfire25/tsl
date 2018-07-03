@@ -5,6 +5,7 @@
   text-align: center;
   display: flex;
   font-size: 2vw;
+  padding-top: 3vw;
 }
 .menu {
   flex: 1;
